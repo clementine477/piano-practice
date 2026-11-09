@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { join, relative } from 'node:path';
 import { execFileSync } from 'node:child_process';
 const root = fileURLToPath(new URL('../', import.meta.url));
-const skip = new Set(['node_modules', '.git', '.cache', 'dist', 'release', 'artifacts']);
+const skip = new Set(['node_modules', '__pycache__', '.git', '.cache', 'dist', 'release', 'artifacts']);
 const generated = ['frontend/public/alphatab/', 'frontend/public/font/', 'frontend/public/soundfont/'];
 let files = 0; const problems = [];
 async function visit(dir) {

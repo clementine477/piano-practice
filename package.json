@@ -15,7 +15,7 @@
     "dev": "pnpm assets && pnpm --filter frontend run dev",
     "desktop": "pnpm build && pnpm --filter piano-practice-desktop run start",
     "package:mac": "pnpm build && node tools/package-mac.mjs",
-    "test": "node --test tests/*.test.mjs desktop/tests/*.cjs",
+    "test": "node --test tests/*.test.mjs desktop/tests/*.cjs && python3 -m unittest discover -s tests -p 'test_*.py'",
     "check:public": "node tools/check-public.mjs",
     "format": "prettier --write frontend/src tools tests docs README.md README.en.md",
     "samples": "python3 tools/fetch-samples.py",

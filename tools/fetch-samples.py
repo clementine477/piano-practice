@@ -1,6 +1,7 @@
 """Download public sample packs; verify the archive and every extracted file."""
 from pathlib import Path, PurePosixPath
-import argparse, hashlib, json, shutil, tempfile, urllib.request, zipfile
+import argparse, hashlib, json, shutil, tempfile, zipfile
+from sample_download import download
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--bank', action='append', help='Fetch only this bank (repeatable). Default: all four.')
@@ -27,8 +28,7 @@ for bank in args.bank or manifest['banks']:
         if args.from_dir: shutil.copyfile(args.from_dir / archive.name, archive)
         else:
             print('Downloading ' + bank, flush=True)
-            with urllib.request.urlopen(spec['url'], timeout=120) as source, archive.open('wb') as out:
-                shutil.copyfileobj(source, out)
+            download(spec['url'], archive)
         if archive.stat().st_size != spec['bytes'] or digest(archive) != spec['sha256']:
             raise SystemExit('Sample archive checksum mismatch: ' + bank)
         with zipfile.ZipFile(archive) as z:
