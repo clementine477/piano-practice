@@ -19,6 +19,16 @@ jobs:
           python-version: '3.x'
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
-      - run: pnpm samples
+      - uses: actions/cache@v4
+        with:
+          path: .cache/sample-zips
+          key: piano-samples-${{ hashFiles('assets/samples.json') }}
+      - name: Download and verify piano samples
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .cache/sample-zips
+          gh release download samples-v1 --repo clementine477/piano-practice --pattern '*.zip' --dir .cache/sample-zips --skip-existing
+          python3 tools/fetch-samples.py --from-dir .cache/sample-zips
       - run: pnpm build
       - run: pnpm check:public
