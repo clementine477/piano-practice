@@ -64,9 +64,25 @@ try {
   await page.evaluate(() => { window.qa.useAppStore.getState().updateSettings({ layoutMode: 'all' }); window.dispatchEvent(new CustomEvent('piano-notation-change', { detail: 'staff' })); });
   await page.waitForTimeout(1200);
   await page.screenshot({ path: join(root, '.cache/smoke.png') });
+  const examples = [];
+  if (process.argv.includes('--examples')) for (const title of ['Day One', 'Are You Lost']) {
+    const score = await readFile(join(root, 'examples', title + '.musicxml'), 'utf8');
+    await page.evaluate(async ({ score, title }) => {
+      const q = window.qa; q.syncEngine.pause();
+      await q.useAppStore.getState().loadMusicXmlFile(new File([score], title + '.musicxml', { type: 'application/xml' }));
+    }, { score, title });
+    await page.waitForFunction(title => window.qa.useAppStore.getState().document?.title === title && !window.qa.useAppStore.getState().isLoadingDocument, title);
+    const info = await page.evaluate(() => {
+      const s = window.qa.useAppStore.getState(), d = s.document;
+      return { title: d.title, notes: d.notes.length, bars: d.measures.length, duration: d.totalDuration, error: s.loadError };
+    });
+    assert(info.notes > 100); assert(info.duration > 60); assert(!info.error);
+    examples.push(info);
+    await page.waitForTimeout(500);
+  }
   assert.deepEqual(errors, []);
   assert.deepEqual(requests, []);
-  const report = { passed: true, document, checks, viewSwitches: 12, errors, requests };
+  const report = { passed: true, document, checks, examples, viewSwitches: 12, errors, requests };
   await writeFile(join(root, '.cache/smoke.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report, null, 2));
 } catch (error) {

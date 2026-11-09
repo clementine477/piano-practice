@@ -21,3 +21,5 @@ The four piano banks are distributed separately as checksummed Release ZIPs and 
 `licenses/npm/` includes installed production dependency license texts and a machine-readable inventory, generated with `pnpm licenses`. Electron's own LICENSE and Chromium third-party notices are distributed with its runtime. Development tools are specified in the lockfile and are not bundled into application JavaScript merely by being installed.
 
 Modified alphaTab files and the build adapter remain MPL-2.0. Apply `third_party/alphatab/piano-practice.patch` to upstream commit `9d0142eee2b1175dfd36e839ddbd867aed9e454e` for the corresponding preferred source. Other application files remain MIT.
+
+Two optional study scores are documented in [examples/README.md](../examples/README.md). Their composition and arrangement rights are not covered by the MIT license. They are separate from the application and the piano sample banks.

@@ -4,13 +4,13 @@ Local piano practice with your own scores, MIDI input, notation and falling note
 
 [中文](README.md) · [Preview downloads](https://github.com/clementine477/piano-practice/releases) · [Licenses](docs/THIRD_PARTY.md)
 
-- Import MusicXML, compressed MXL and MIDI into a local library.
+- Import your own scores and course exercise files (MusicXML, MXL, MIDI or Quick JSON) into a local library.
 - Switch between staff and numbered notation; falling notes, pedal cues and an 88-key keyboard.
 - Separate demonstration and practice hands, guided sections, wait-for-input, tempo and loop controls.
 - Four recorded piano banks, adjustable brightness, ambience and tuning; recorded woodblock metronome.
 - Chinese and English UI. No account or backend required for normal practice.
 
-No courses, commercial scores or personal practice records are bundled. Import material you have permission to use. The short score under `tests/fixtures` is an original regression fixture, not a bundled course.
+No courses or personal practice records are bundled. Optional [Day One / Are You Lost examples](examples/README.md) are separate imports with their own work rights; the software MIT license does not cover them. Import other material you have permission to use. The short score under `tests/fixtures` is an original regression fixture, not a bundled course.
 
 ## macOS preview
 
@@ -39,7 +39,7 @@ pnpm check:public    # publication exclusions and sample verification
 pnpm package:mac     # local signed macOS app
 ```
 
-Library, audio, preferences and progress stay in the local application data directory. No telemetry, cloud sync, accounts or ads are included. Updates are manual. Back up original scores and application data before migration; a complete library migration wizard is not provided yet.
+Library, audio, preferences and practice position/tempo/loop settings stay in the local application data directory. Note-by-note attempts and statistics are session-only: export before closing. A persistent practice-history timeline is not implemented yet. No telemetry, cloud sync, accounts or ads are included. Updates are manual. Back up original scores and application data before migration; a complete library migration wizard is not provided yet.
 
 ## License and provenance
 

@@ -14,7 +14,7 @@ async function visit(dir) {
     if (entry.isSymbolicLink()) { problems.push(rel + ': unexpected symlink'); continue; }
     if (entry.isDirectory()) { await visit(p); continue; }
     files++;
-    if (/\.(musicxml|mxl|mid|midi|quick\.json)$/i.test(rel) && rel !== 'tests/fixtures/timing.musicxml') problems.push(rel + ': unapproved music');
+    if (/\.(musicxml|mxl|mid|midi|quick\.json)$/i.test(rel) && !['tests/fixtures/timing.musicxml', 'examples/Day One.musicxml', 'examples/Are You Lost.musicxml'].includes(rel)) problems.push(rel + ': unapproved music');
     if (/(^|\/)(\.env|.*\.(pem|key|db|sqlite|zip|dmg)|Login Data|Cookies|Preferences)$/.test(rel)) problems.push(rel + ': private/generated artifact');
     if ((await stat(p)).size > 5 * 1024 * 1024) problems.push(rel + ': unexpectedly large source file');
     if (/\.(png|wav|ico)$/i.test(rel)) continue;
@@ -25,4 +25,4 @@ async function visit(dir) {
 await visit(root);
 if (problems.length) throw new Error(problems.join('\n'));
 execFileSync(process.env.PYTHON || 'python3', [join(root, 'tools/fetch-samples.py'), '--verify-only'], { stdio: 'inherit' });
-console.log('Public source check passed:', files, 'files; no bundled user scores, profiles or private paths.');
+console.log('Public source check passed:', files, 'files; only listed example scores; no profiles or private paths.');

@@ -19,10 +19,12 @@ The public tree builds without the prior app, personal files, patch archives or 
 | `frontend/src/utils` | MusicXML/MXL import and expression metadata |
 | `desktop` | Electron local-origin shell and manual local update support |
 
-No lessons or personal arrangements are included. Section practice, MIDI feedback and report export remain ordinary application features. Legacy server-assisted import methods may remain internally, but no backend or credentials are bundled and these services are not supported in this preview.
+No lessons or personal profiles are included. Two optional study arrangements are provided separately under `examples`; their work rights are separate from the software license. Section practice, MIDI feedback and report export remain ordinary application features. Legacy server-assisted import methods may remain internally, but no backend or credentials are bundled and these services are not supported in this preview.
 
 ## Validation scope
 
 Runtime tests cover pedal cancellation, repeat-note ownership, sample preparation, metronome timing and cursor interpolation. Desktop tests cover local update validation and rollback. Native smoke tests use an original 72-note fixture, four sample banks, audio activity/silence and repeated view changes. These checks do not establish correctness for every MusicXML producer or physical keyboard.
 
 Build output is reproducible from pinned inputs in the practical sense of repeatable source builds; byte-for-byte signed application reproducibility is not claimed. macOS builds are ad-hoc signed, not notarized.
+
+Practice reporting currently summarizes the current attempt and exports JSON/Markdown, including earlier attempts within the same loaded session. Detailed attempts are not persisted across reloads or song changes. Only practice context (position, tempo, loop, mode) is restored. This limitation was confirmed with simulated correct/wrong MIDI input, report export, and a full renderer reload.
