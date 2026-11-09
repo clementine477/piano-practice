@@ -74,9 +74,23 @@ try {
     await page.waitForFunction(title => window.qa.useAppStore.getState().document?.title === title && !window.qa.useAppStore.getState().isLoadingDocument, title);
     const info = await page.evaluate(() => {
       const s = window.qa.useAppStore.getState(), d = s.document;
-      return { title: d.title, notes: d.notes.length, bars: d.measures.length, duration: d.totalDuration, error: s.loadError };
+      const handoff = d.title === 'Day One' ? {
+        held: d.notes.find(n => n.hand === 'left' && n.midi === 64 && n.startTick === 144000),
+        reattack: d.notes.find(n => n.hand === 'right' && n.midi === 64 && n.startTick === 144480),
+        bass: d.notes.find(n => n.hand === 'left' && n.midi === 52 && n.startTick === 144000),
+        pulses: d.notes.filter(n => n.hand === 'right' && n.midi === 64 && n.startTick >= 144000 && n.startTick < 155520).length,
+      } : null;
+      return { title: d.title, notes: d.notes.length, bars: d.measures.length, duration: d.totalDuration, error: s.loadError, handoff };
     });
     assert(info.notes > 100); assert(info.duration > 60); assert(!info.error);
+    if (title === 'Day One') {
+      const { held, reattack, bass, pulses } = info.handoff;
+      assert(held && reattack && bass, 'Day One must retain both voices and the initial E4');
+      assert(held.endSeconds > held.startSeconds, 'The initial E4 must still sound');
+      assert(held.endSeconds <= reattack.startSeconds, 'Release E4 before the other hand replays that key');
+      assert(bass.endSeconds > 97, 'Keep the sustained low E3');
+      assert.equal(pulses, 12, 'Keep every right-hand E4 reattack in bars 51–54');
+    }
     examples.push(info);
     await page.waitForTimeout(500);
   }
