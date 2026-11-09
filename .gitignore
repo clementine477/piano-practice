@@ -1,0 +1,13 @@
+node_modules/
+**/dist/
+release/
+artifacts/
+.cache/
+.DS_Store
+*.log
+.env*
+*.pem
+*.key
+frontend/public/alphatab/
+frontend/public/font/
+frontend/public/soundfont/

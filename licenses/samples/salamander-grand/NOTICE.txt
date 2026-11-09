@@ -1,0 +1,7 @@
+Salamander Grand Piano V3
+Samples: Alexander Holm. Retuning: Markus Fiedler. SFZ remapping: kinwie.
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+https://github.com/sfzinstruments/SalamanderGrandPiano
+
+Adapted for Piano Practice: converted FLAC to Ogg Vorbis, trimmed documented start offsets, retained all 16 note layers and original key regions, used retuned key offsets. Release resonance is mixed conservatively by the local player. This is a local-player adaptation, not a complete ARIA SFZ implementation.

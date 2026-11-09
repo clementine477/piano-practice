@@ -1,0 +1,287 @@
+[
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.2",
+    "license": "MIT",
+    "repository": "https://github.com/babel/babel.git",
+    "notices": [
+      "@babel__runtime@7.29.2/LICENSE"
+    ]
+  },
+  {
+    "name": "@coderline/alphatab",
+    "version": "1.8.3",
+    "license": "MPL-2.0",
+    "repository": "git+https://github.com/coderline/alphaTab.git",
+    "notices": [
+      "@coderline__alphatab@1.8.3/LICENSE",
+      "@coderline__alphatab@1.8.3/LICENSE.header"
+    ]
+  },
+  {
+    "name": "@pixi/colord",
+    "version": "2.9.6",
+    "license": "MIT",
+    "repository": "omgovich/colord",
+    "notices": []
+  },
+  {
+    "name": "@tonejs/midi",
+    "version": "2.0.28",
+    "license": "MIT",
+    "repository": "https://github.com/Tonejs/Midi.git",
+    "notices": [
+      "@tonejs__midi@2.0.28/LICENSE.md"
+    ]
+  },
+  {
+    "name": "@types/earcut",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "notices": [
+      "@types__earcut@3.0.0/LICENSE"
+    ]
+  },
+  {
+    "name": "@webgpu/types",
+    "version": "0.1.69",
+    "license": "BSD-3-Clause",
+    "repository": "gpuweb/types",
+    "notices": [
+      "@webgpu__types@0.1.69/LICENSE"
+    ]
+  },
+  {
+    "name": "@xmldom/xmldom",
+    "version": "0.8.13",
+    "license": "MIT",
+    "repository": "git://github.com/xmldom/xmldom.git",
+    "notices": [
+      "@xmldom__xmldom@0.8.13/LICENSE"
+    ]
+  },
+  {
+    "name": "array-flatten",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "git://github.com/blakeembrey/array-flatten.git",
+    "notices": [
+      "array-flatten@3.0.0/LICENSE"
+    ]
+  },
+  {
+    "name": "automation-events",
+    "version": "7.1.17",
+    "license": "MIT",
+    "repository": "https://github.com/chrisguttandin/automation-events.git",
+    "notices": [
+      "automation-events@7.1.17/LICENSE"
+    ]
+  },
+  {
+    "name": "buffer-crc32",
+    "version": "0.2.13",
+    "license": "MIT",
+    "repository": "git://github.com/brianloveswords/buffer-crc32.git",
+    "notices": [
+      "buffer-crc32@0.2.13/LICENSE"
+    ]
+  },
+  {
+    "name": "djipevents",
+    "version": "2.0.7",
+    "license": "Apache-2.0",
+    "repository": null,
+    "notices": [
+      "djipevents@2.0.7/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "earcut",
+    "version": "3.0.2",
+    "license": "ISC",
+    "repository": "git://github.com/mapbox/earcut.git",
+    "notices": [
+      "earcut@3.0.2/LICENSE"
+    ]
+  },
+  {
+    "name": "eventemitter3",
+    "version": "5.0.4",
+    "license": "MIT",
+    "repository": "git://github.com/primus/eventemitter3.git",
+    "notices": [
+      "eventemitter3@5.0.4/LICENSE"
+    ]
+  },
+  {
+    "name": "gifuct-js",
+    "version": "2.1.2",
+    "license": "MIT",
+    "repository": "https://github.com/matt-way/gifuct-js.git",
+    "notices": [
+      "gifuct-js@2.1.2/LICENSE"
+    ]
+  },
+  {
+    "name": "ismobilejs",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/kaimallea/isMobile.git",
+    "notices": [
+      "ismobilejs@1.1.1/LICENSE"
+    ]
+  },
+  {
+    "name": "js-binary-schema-parser",
+    "version": "2.0.3",
+    "license": "MIT",
+    "repository": "https://github.com/matt-way/jsBinarySchemaParser.git",
+    "notices": [
+      "js-binary-schema-parser@2.0.3/LICENSE"
+    ]
+  },
+  {
+    "name": "midi-file",
+    "version": "1.2.4",
+    "license": "MIT",
+    "repository": "git+https://github.com/carter-thaxton/midi-file.git",
+    "notices": [
+      "midi-file@1.2.4/LICENSE.md"
+    ]
+  },
+  {
+    "name": "mitt",
+    "version": "3.0.1",
+    "license": "MIT",
+    "repository": "developit/mitt",
+    "notices": [
+      "mitt@3.0.1/LICENSE"
+    ]
+  },
+  {
+    "name": "parse-svg-path",
+    "version": "0.1.2",
+    "license": "MIT",
+    "repository": "git://github.com/jkroso/parse-svg-path.git",
+    "notices": [
+      "parse-svg-path@0.1.2/License"
+    ]
+  },
+  {
+    "name": "pend",
+    "version": "1.2.0",
+    "license": "MIT",
+    "repository": "git://github.com/andrewrk/node-pend.git",
+    "notices": [
+      "pend@1.2.0/LICENSE"
+    ]
+  },
+  {
+    "name": "pixi.js",
+    "version": "8.18.1",
+    "license": "MIT",
+    "repository": "https://github.com/pixijs/pixijs.git",
+    "notices": [
+      "pixi.js@8.18.1/LICENSE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.2.7",
+    "license": "MIT",
+    "repository": "https://github.com/facebook/react.git",
+    "notices": [
+      "react@19.2.7/LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.2.7",
+    "license": "MIT",
+    "repository": "https://github.com/facebook/react.git",
+    "notices": [
+      "react-dom@19.2.7/LICENSE"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.27.0",
+    "license": "MIT",
+    "repository": "https://github.com/facebook/react.git",
+    "notices": [
+      "scheduler@0.27.0/LICENSE"
+    ]
+  },
+  {
+    "name": "smplr",
+    "version": "0.26.0",
+    "license": "MIT",
+    "repository": "git+https://github.com/danigb/smplr.git",
+    "notices": []
+  },
+  {
+    "name": "standardized-audio-context",
+    "version": "25.3.77",
+    "license": "MIT",
+    "repository": "https://github.com/chrisguttandin/standardized-audio-context.git",
+    "notices": [
+      "standardized-audio-context@25.3.77/LICENSE"
+    ]
+  },
+  {
+    "name": "tiny-lru",
+    "version": "11.4.7",
+    "license": "BSD-3-Clause",
+    "repository": "git://github.com/avoidwork/tiny-lru.git",
+    "notices": [
+      "tiny-lru@11.4.7/LICENSE"
+    ]
+  },
+  {
+    "name": "tone",
+    "version": "15.1.22",
+    "license": "MIT",
+    "repository": "https://github.com/Tonejs/Tone.js.git",
+    "notices": [
+      "tone@15.1.22/LICENSE.md"
+    ]
+  },
+  {
+    "name": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "repository": "https://github.com/Microsoft/tslib.git",
+    "notices": [
+      "tslib@2.8.1/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "webmidi",
+    "version": "3.1.16",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/djipco/webmidi.git",
+    "notices": [
+      "webmidi@3.1.16/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "yauzl",
+    "version": "3.2.0",
+    "license": "MIT",
+    "repository": "git+https://github.com/thejoshwolfe/yauzl.git",
+    "notices": [
+      "yauzl@3.2.0/LICENSE"
+    ]
+  },
+  {
+    "name": "zustand",
+    "version": "5.0.13",
+    "license": "MIT",
+    "repository": "git+https://github.com/pmndrs/zustand.git",
+    "notices": [
+      "zustand@5.0.13/LICENSE"
+    ]
+  }
+]

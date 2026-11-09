@@ -1,0 +1,5 @@
+University of Iowa Electronic Music Studios; Steinway & Sons Model B; Evan Mazunik; recorded November 2001
+https://theremin.music.uiowa.edu/MISpiano.html
+Source permits download and use in any projects without restrictions: https://theremin.music.uiowa.edu/MIS.html
+Processing: DC removal, 10 Hz high-pass, measured silence trim, boundary fades, Ogg. Recorded dynamics retained; pp/mf/ff crossfade at MIDI 40/80/120. Constant -2.29 dB output trim provides output level matching.
+Four missing source recordings use nearest-key transposition in the same dynamic; see derivedKeys in manifest.json.

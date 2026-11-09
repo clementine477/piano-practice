@@ -1,0 +1,11 @@
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const {generateKeyPairSync,sign,createHash}=require('node:crypto');
+const {validateRelease,newer,verifyBytes,httpsUrl,download}=require('../update-core.cjs');
+const {privateKey,publicKey}=generateKeyPairSync('ed25519');
+const bytes=Buffer.from('zip-data');
+const release={schema:1,version:'0.5.1',channel:'stable',platform:'darwin',arch:'arm64',size:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex'),url:'https://example.org/release.zip',notes:'A fix'};
+const envelope=r=>{const payload=JSON.stringify(r);return {payload,signature:sign(null,Buffer.from(payload),privateKey).toString('base64')}};
+test('trusted signed release, version gating and channels',()=>{assert.equal(validateRelease(envelope(release),publicKey,'0.5.0').version,'0.5.1');assert.equal(validateRelease(envelope(release),publicKey,'0.5.1'),null);assert.throws(()=>validateRelease(envelope({...release,channel:'beta'}),publicKey,'0.5.0'));assert.equal(newer('0.10.0','0.9.9'),true);assert.equal(newer('0.4.9','0.5.0'),false)});
+test('signature tampering, wrong architecture and oversized payload rejected',()=>{const e=envelope(release);e.payload+=' ';assert.throws(()=>validateRelease(e,publicKey,'0.5.0'));assert.throws(()=>validateRelease(envelope({...release,arch:'x64'}),publicKey,'0.5.0'));assert.throws(()=>validateRelease(envelope({...release,size:1e12}),publicKey,'0.5.0'))});
+test('partial/corrupt download does not reach installation',()=>{assert.doesNotThrow(()=>verifyBytes(bytes,release));assert.throws(()=>verifyBytes(bytes.subarray(1),release));assert.throws(()=>verifyBytes(Buffer.from('bad-data'),release))});
+test('transport rejects HTTP, credentials, redirects/errors and over limit',async()=>{assert.throws(()=>httpsUrl('http://example.org'));assert.throws(()=>httpsUrl('https://u:p@example.org'));await assert.rejects(download(release.url,4,async()=>new Response(bytes)));await assert.rejects(download(release.url,40,async()=>new Response('',{status:500})));assert.deepEqual(await download(release.url,40,async()=>new Response(bytes)),bytes)});

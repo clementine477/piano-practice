@@ -1,0 +1,28 @@
+Piano Practice
+
+Based on Bach to Basics, Copyright (c) 2025-2026 gigliof, MIT.
+https://github.com/gigliof/bach-to-basics
+
+Piano Practice modifications (2026) are provided under the same MIT license
+except the explicitly identified third-party components below.
+
+alphaTab 1.8.3: MPL-2.0, Daniel Kuschny and contributors.
+Modified for hidden tempo engraving and score-generation isolation.
+Preferred modified source and patch: third_party/alphatab in the source repo.
+Source: https://github.com/clementine477/piano-practice
+Upstream: https://github.com/CoderLine/alphaTab/tree/v1.8.3
+Full license: licenses/alphaTab-MPL-2.0.txt.
+
+Bravura font: SIL Open Font License, see licenses/Bravura-OFL.txt.
+SONiVOX: Apache-2.0, see licenses/SONiVOX-NOTICE.txt.
+React, Tone, Pixi, Zustand, smplr and other runtime dependencies: individual
+licenses and copyright notices in licenses/npm; WebMidi uses Apache-2.0.
+Electron and Chromium include their own runtime licenses and notices.
+
+Piano recordings: Kawai Upright (CC0); Yamaha YDP Grand and Salamander
+Grand (CC BY 3.0); Iowa Steinway B (Iowa MIS project-use permission).
+See licenses/samples for recording credits, original notices and adaptations.
+Recorded woodblock metronome: VCSL, CC0, see licenses/VCSL-CC0.txt.
+
+No courses, commercial scores or personal practice data are distributed.
+The MIT software license does not cover imported musical works.

@@ -1,0 +1,27 @@
+{
+  "library": "Versilian Community Sample Library",
+  "url": "https://github.com/sgossner/VCSL",
+  "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+  "license": "CC0-1.0",
+  "processing": "Mono downmix, onset trim, peak normalization, 25 ms tail fade; no pitch shifting.",
+  "samples": [
+    {
+      "file": "wood-accent.wav",
+      "source": "Idiophones/Struck Idiophones/Woodblock/wood_click_f_rr1.wav",
+      "sourceSha256": "86b690a393ad62d65dc6832948adb0cc164fe22f544a8065809f000c65d615fc",
+      "sha256": "de8c507ace97f8dd3e37e9890e2e63f92a535a8720a8c222e6211e237b0b612a",
+      "rate": 44100,
+      "duration": 0.32,
+      "peak": 0.79998779296875
+    },
+    {
+      "file": "wood-beat.wav",
+      "source": "Idiophones/Struck Idiophones/Woodblock/wood_click_mp.wav",
+      "sourceSha256": "00b76f9fe96c118f29dfc69866c12ec11f2e1264f6cb9c0b36912c2210b015fe",
+      "sha256": "b463afdc8aaa0be556baf44bbb932f1d49fab27516c151342c50956ab944a046",
+      "rate": 44100,
+      "duration": 0.32,
+      "peak": 0.53997802734375
+    }
+  ]
+}

@@ -1,0 +1,1599 @@
+{
+  "name": "Kawai Upright",
+  "source": "UprightPianoKW-20220221.sf2",
+  "sourceSha256": "d9f5157720963671906727ca2e12b3293fd822c831bb0de477dd1c5f3ad37108",
+  "sampleRate": 44100,
+  "layers": [
+    48,
+    84,
+    116
+  ],
+  "samples": [
+    {
+      "midi": 21,
+      "velocity": 48,
+      "file": "21-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 21,
+      "velocity": 84,
+      "file": "21-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 21,
+      "velocity": 116,
+      "file": "21-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 22,
+      "velocity": 48,
+      "file": "22-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 22,
+      "velocity": 84,
+      "file": "22-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 22,
+      "velocity": 116,
+      "file": "22-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 23,
+      "velocity": 48,
+      "file": "23-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 23,
+      "velocity": 84,
+      "file": "23-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 23,
+      "velocity": 116,
+      "file": "23-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 24,
+      "velocity": 48,
+      "file": "24-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 24,
+      "velocity": 84,
+      "file": "24-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 24,
+      "velocity": 116,
+      "file": "24-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 25,
+      "velocity": 48,
+      "file": "25-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 25,
+      "velocity": 84,
+      "file": "25-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 25,
+      "velocity": 116,
+      "file": "25-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 26,
+      "velocity": 48,
+      "file": "26-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 26,
+      "velocity": 84,
+      "file": "26-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 26,
+      "velocity": 116,
+      "file": "26-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 27,
+      "velocity": 48,
+      "file": "27-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 27,
+      "velocity": 84,
+      "file": "27-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 27,
+      "velocity": 116,
+      "file": "27-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 28,
+      "velocity": 48,
+      "file": "28-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 28,
+      "velocity": 84,
+      "file": "28-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 28,
+      "velocity": 116,
+      "file": "28-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 29,
+      "velocity": 48,
+      "file": "29-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 29,
+      "velocity": 84,
+      "file": "29-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 29,
+      "velocity": 116,
+      "file": "29-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 30,
+      "velocity": 48,
+      "file": "30-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 30,
+      "velocity": 84,
+      "file": "30-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 30,
+      "velocity": 116,
+      "file": "30-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 31,
+      "velocity": 48,
+      "file": "31-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 31,
+      "velocity": 84,
+      "file": "31-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 31,
+      "velocity": 116,
+      "file": "31-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 32,
+      "velocity": 48,
+      "file": "32-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 32,
+      "velocity": 84,
+      "file": "32-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 32,
+      "velocity": 116,
+      "file": "32-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 33,
+      "velocity": 48,
+      "file": "33-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 33,
+      "velocity": 84,
+      "file": "33-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 33,
+      "velocity": 116,
+      "file": "33-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 34,
+      "velocity": 48,
+      "file": "34-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 34,
+      "velocity": 84,
+      "file": "34-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 34,
+      "velocity": 116,
+      "file": "34-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 35,
+      "velocity": 48,
+      "file": "35-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 35,
+      "velocity": 84,
+      "file": "35-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 35,
+      "velocity": 116,
+      "file": "35-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 36,
+      "velocity": 48,
+      "file": "36-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 36,
+      "velocity": 84,
+      "file": "36-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 36,
+      "velocity": 116,
+      "file": "36-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 37,
+      "velocity": 48,
+      "file": "37-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 37,
+      "velocity": 84,
+      "file": "37-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 37,
+      "velocity": 116,
+      "file": "37-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 38,
+      "velocity": 48,
+      "file": "38-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 38,
+      "velocity": 84,
+      "file": "38-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 38,
+      "velocity": 116,
+      "file": "38-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 39,
+      "velocity": 48,
+      "file": "39-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 39,
+      "velocity": 84,
+      "file": "39-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 39,
+      "velocity": 116,
+      "file": "39-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 40,
+      "velocity": 48,
+      "file": "40-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 40,
+      "velocity": 84,
+      "file": "40-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 40,
+      "velocity": 116,
+      "file": "40-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 41,
+      "velocity": 48,
+      "file": "41-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 41,
+      "velocity": 84,
+      "file": "41-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 41,
+      "velocity": 116,
+      "file": "41-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 42,
+      "velocity": 48,
+      "file": "42-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 42,
+      "velocity": 84,
+      "file": "42-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 42,
+      "velocity": 116,
+      "file": "42-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 43,
+      "velocity": 48,
+      "file": "43-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 43,
+      "velocity": 84,
+      "file": "43-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 43,
+      "velocity": 116,
+      "file": "43-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 44,
+      "velocity": 48,
+      "file": "44-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 44,
+      "velocity": 84,
+      "file": "44-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 44,
+      "velocity": 116,
+      "file": "44-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 45,
+      "velocity": 48,
+      "file": "45-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 45,
+      "velocity": 84,
+      "file": "45-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 45,
+      "velocity": 116,
+      "file": "45-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 46,
+      "velocity": 48,
+      "file": "46-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 46,
+      "velocity": 84,
+      "file": "46-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 46,
+      "velocity": 116,
+      "file": "46-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 47,
+      "velocity": 48,
+      "file": "47-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 47,
+      "velocity": 84,
+      "file": "47-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 47,
+      "velocity": 116,
+      "file": "47-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 48,
+      "velocity": 48,
+      "file": "48-48.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 48,
+      "velocity": 84,
+      "file": "48-84.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 48,
+      "velocity": 116,
+      "file": "48-116.ogg",
+      "duration": 14
+    },
+    {
+      "midi": 49,
+      "velocity": 48,
+      "file": "49-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 49,
+      "velocity": 84,
+      "file": "49-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 49,
+      "velocity": 116,
+      "file": "49-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 50,
+      "velocity": 48,
+      "file": "50-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 50,
+      "velocity": 84,
+      "file": "50-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 50,
+      "velocity": 116,
+      "file": "50-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 51,
+      "velocity": 48,
+      "file": "51-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 51,
+      "velocity": 84,
+      "file": "51-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 51,
+      "velocity": 116,
+      "file": "51-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 52,
+      "velocity": 48,
+      "file": "52-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 52,
+      "velocity": 84,
+      "file": "52-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 52,
+      "velocity": 116,
+      "file": "52-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 53,
+      "velocity": 48,
+      "file": "53-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 53,
+      "velocity": 84,
+      "file": "53-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 53,
+      "velocity": 116,
+      "file": "53-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 54,
+      "velocity": 48,
+      "file": "54-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 54,
+      "velocity": 84,
+      "file": "54-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 54,
+      "velocity": 116,
+      "file": "54-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 55,
+      "velocity": 48,
+      "file": "55-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 55,
+      "velocity": 84,
+      "file": "55-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 55,
+      "velocity": 116,
+      "file": "55-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 56,
+      "velocity": 48,
+      "file": "56-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 56,
+      "velocity": 84,
+      "file": "56-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 56,
+      "velocity": 116,
+      "file": "56-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 57,
+      "velocity": 48,
+      "file": "57-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 57,
+      "velocity": 84,
+      "file": "57-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 57,
+      "velocity": 116,
+      "file": "57-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 58,
+      "velocity": 48,
+      "file": "58-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 58,
+      "velocity": 84,
+      "file": "58-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 58,
+      "velocity": 116,
+      "file": "58-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 59,
+      "velocity": 48,
+      "file": "59-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 59,
+      "velocity": 84,
+      "file": "59-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 59,
+      "velocity": 116,
+      "file": "59-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 60,
+      "velocity": 48,
+      "file": "60-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 60,
+      "velocity": 84,
+      "file": "60-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 60,
+      "velocity": 116,
+      "file": "60-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 61,
+      "velocity": 48,
+      "file": "61-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 61,
+      "velocity": 84,
+      "file": "61-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 61,
+      "velocity": 116,
+      "file": "61-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 62,
+      "velocity": 48,
+      "file": "62-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 62,
+      "velocity": 84,
+      "file": "62-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 62,
+      "velocity": 116,
+      "file": "62-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 63,
+      "velocity": 48,
+      "file": "63-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 63,
+      "velocity": 84,
+      "file": "63-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 63,
+      "velocity": 116,
+      "file": "63-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 64,
+      "velocity": 48,
+      "file": "64-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 64,
+      "velocity": 84,
+      "file": "64-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 64,
+      "velocity": 116,
+      "file": "64-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 65,
+      "velocity": 48,
+      "file": "65-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 65,
+      "velocity": 84,
+      "file": "65-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 65,
+      "velocity": 116,
+      "file": "65-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 66,
+      "velocity": 48,
+      "file": "66-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 66,
+      "velocity": 84,
+      "file": "66-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 66,
+      "velocity": 116,
+      "file": "66-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 67,
+      "velocity": 48,
+      "file": "67-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 67,
+      "velocity": 84,
+      "file": "67-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 67,
+      "velocity": 116,
+      "file": "67-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 68,
+      "velocity": 48,
+      "file": "68-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 68,
+      "velocity": 84,
+      "file": "68-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 68,
+      "velocity": 116,
+      "file": "68-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 69,
+      "velocity": 48,
+      "file": "69-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 69,
+      "velocity": 84,
+      "file": "69-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 69,
+      "velocity": 116,
+      "file": "69-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 70,
+      "velocity": 48,
+      "file": "70-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 70,
+      "velocity": 84,
+      "file": "70-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 70,
+      "velocity": 116,
+      "file": "70-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 71,
+      "velocity": 48,
+      "file": "71-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 71,
+      "velocity": 84,
+      "file": "71-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 71,
+      "velocity": 116,
+      "file": "71-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 72,
+      "velocity": 48,
+      "file": "72-48.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 72,
+      "velocity": 84,
+      "file": "72-84.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 72,
+      "velocity": 116,
+      "file": "72-116.ogg",
+      "duration": 11
+    },
+    {
+      "midi": 73,
+      "velocity": 48,
+      "file": "73-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 73,
+      "velocity": 84,
+      "file": "73-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 73,
+      "velocity": 116,
+      "file": "73-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 74,
+      "velocity": 48,
+      "file": "74-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 74,
+      "velocity": 84,
+      "file": "74-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 74,
+      "velocity": 116,
+      "file": "74-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 75,
+      "velocity": 48,
+      "file": "75-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 75,
+      "velocity": 84,
+      "file": "75-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 75,
+      "velocity": 116,
+      "file": "75-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 76,
+      "velocity": 48,
+      "file": "76-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 76,
+      "velocity": 84,
+      "file": "76-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 76,
+      "velocity": 116,
+      "file": "76-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 77,
+      "velocity": 48,
+      "file": "77-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 77,
+      "velocity": 84,
+      "file": "77-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 77,
+      "velocity": 116,
+      "file": "77-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 78,
+      "velocity": 48,
+      "file": "78-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 78,
+      "velocity": 84,
+      "file": "78-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 78,
+      "velocity": 116,
+      "file": "78-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 79,
+      "velocity": 48,
+      "file": "79-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 79,
+      "velocity": 84,
+      "file": "79-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 79,
+      "velocity": 116,
+      "file": "79-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 80,
+      "velocity": 48,
+      "file": "80-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 80,
+      "velocity": 84,
+      "file": "80-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 80,
+      "velocity": 116,
+      "file": "80-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 81,
+      "velocity": 48,
+      "file": "81-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 81,
+      "velocity": 84,
+      "file": "81-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 81,
+      "velocity": 116,
+      "file": "81-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 82,
+      "velocity": 48,
+      "file": "82-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 82,
+      "velocity": 84,
+      "file": "82-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 82,
+      "velocity": 116,
+      "file": "82-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 83,
+      "velocity": 48,
+      "file": "83-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 83,
+      "velocity": 84,
+      "file": "83-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 83,
+      "velocity": 116,
+      "file": "83-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 84,
+      "velocity": 48,
+      "file": "84-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 84,
+      "velocity": 84,
+      "file": "84-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 84,
+      "velocity": 116,
+      "file": "84-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 85,
+      "velocity": 48,
+      "file": "85-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 85,
+      "velocity": 84,
+      "file": "85-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 85,
+      "velocity": 116,
+      "file": "85-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 86,
+      "velocity": 48,
+      "file": "86-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 86,
+      "velocity": 84,
+      "file": "86-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 86,
+      "velocity": 116,
+      "file": "86-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 87,
+      "velocity": 48,
+      "file": "87-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 87,
+      "velocity": 84,
+      "file": "87-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 87,
+      "velocity": 116,
+      "file": "87-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 88,
+      "velocity": 48,
+      "file": "88-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 88,
+      "velocity": 84,
+      "file": "88-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 88,
+      "velocity": 116,
+      "file": "88-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 89,
+      "velocity": 48,
+      "file": "89-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 89,
+      "velocity": 84,
+      "file": "89-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 89,
+      "velocity": 116,
+      "file": "89-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 90,
+      "velocity": 48,
+      "file": "90-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 90,
+      "velocity": 84,
+      "file": "90-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 90,
+      "velocity": 116,
+      "file": "90-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 91,
+      "velocity": 48,
+      "file": "91-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 91,
+      "velocity": 84,
+      "file": "91-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 91,
+      "velocity": 116,
+      "file": "91-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 92,
+      "velocity": 48,
+      "file": "92-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 92,
+      "velocity": 84,
+      "file": "92-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 92,
+      "velocity": 116,
+      "file": "92-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 93,
+      "velocity": 48,
+      "file": "93-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 93,
+      "velocity": 84,
+      "file": "93-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 93,
+      "velocity": 116,
+      "file": "93-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 94,
+      "velocity": 48,
+      "file": "94-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 94,
+      "velocity": 84,
+      "file": "94-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 94,
+      "velocity": 116,
+      "file": "94-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 95,
+      "velocity": 48,
+      "file": "95-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 95,
+      "velocity": 84,
+      "file": "95-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 95,
+      "velocity": 116,
+      "file": "95-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 96,
+      "velocity": 48,
+      "file": "96-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 96,
+      "velocity": 84,
+      "file": "96-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 96,
+      "velocity": 116,
+      "file": "96-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 97,
+      "velocity": 48,
+      "file": "97-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 97,
+      "velocity": 84,
+      "file": "97-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 97,
+      "velocity": 116,
+      "file": "97-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 98,
+      "velocity": 48,
+      "file": "98-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 98,
+      "velocity": 84,
+      "file": "98-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 98,
+      "velocity": 116,
+      "file": "98-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 99,
+      "velocity": 48,
+      "file": "99-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 99,
+      "velocity": 84,
+      "file": "99-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 99,
+      "velocity": 116,
+      "file": "99-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 100,
+      "velocity": 48,
+      "file": "100-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 100,
+      "velocity": 84,
+      "file": "100-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 100,
+      "velocity": 116,
+      "file": "100-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 101,
+      "velocity": 48,
+      "file": "101-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 101,
+      "velocity": 84,
+      "file": "101-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 101,
+      "velocity": 116,
+      "file": "101-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 102,
+      "velocity": 48,
+      "file": "102-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 102,
+      "velocity": 84,
+      "file": "102-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 102,
+      "velocity": 116,
+      "file": "102-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 103,
+      "velocity": 48,
+      "file": "103-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 103,
+      "velocity": 84,
+      "file": "103-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 103,
+      "velocity": 116,
+      "file": "103-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 104,
+      "velocity": 48,
+      "file": "104-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 104,
+      "velocity": 84,
+      "file": "104-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 104,
+      "velocity": 116,
+      "file": "104-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 105,
+      "velocity": 48,
+      "file": "105-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 105,
+      "velocity": 84,
+      "file": "105-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 105,
+      "velocity": 116,
+      "file": "105-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 106,
+      "velocity": 48,
+      "file": "106-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 106,
+      "velocity": 84,
+      "file": "106-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 106,
+      "velocity": 116,
+      "file": "106-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 107,
+      "velocity": 48,
+      "file": "107-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 107,
+      "velocity": 84,
+      "file": "107-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 107,
+      "velocity": 116,
+      "file": "107-116.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 108,
+      "velocity": 48,
+      "file": "108-48.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 108,
+      "velocity": 84,
+      "file": "108-84.ogg",
+      "duration": 8
+    },
+    {
+      "midi": 108,
+      "velocity": 116,
+      "file": "108-116.ogg",
+      "duration": 8
+    }
+  ],
+  "license": "CC0 1.0; Gonzalo and Roberto / FreePats",
+  "outputTrim": 0.3003950943776293
+}

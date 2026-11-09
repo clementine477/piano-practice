@@ -1,0 +1,105 @@
+/* Piano Practice 0.5.4: reversible presentation layer. No engine or storage changes. */
+:root,[data-theme="dark"]{
+ --color-bg:#242629;--color-surface:#303236;--color-surface-2:#3a3d42;--color-surface-3:#454950;
+ --color-border:#51555d;--color-border-subtle:#3d4147;--color-notes-bg:#202225;--color-notes-border:#3d4147;
+ --color-text:#e4e6e9;--color-text-muted:#b0b6bf;--color-text-dim:#858d99;
+ --color-accent:#426e9e;--color-accent-hover:#5285ba;--color-accent-text:#b8d8f5;
+ --color-accent-subtle:#426e9e30;--color-accent-subtle-border:#6e9fca70;--color-toggle-off:#555c65;
+ --color-warning:#e6b56d;--color-warning-subtle:#b47c2920;--color-warning-border:#b9935c66;
+ --color-left-hand:#77b8e7;--color-left-hand-text:#9bcdf0;--color-left-hand-subtle:#77b8e724;--color-left-hand-subtle-border:#77b8e755;
+ --color-right-hand:#b69bdc;--color-right-hand-text:#c7b2e3;--color-right-hand-subtle:#b69bdc24;--color-right-hand-subtle-border:#b69bdc55;
+ color-scheme:dark;
+}
+[data-theme="light"]{
+ --color-bg:#d5d7da;--color-surface:#e7e8ea;--color-surface-2:#dfe1e4;--color-surface-3:#ccd0d5;
+ --color-border:#adb2b9;--color-border-subtle:#c4c8ce;--color-notes-bg:#f4f4f3;--color-notes-border:#c0c4ca;
+ --color-text:#242b34;--color-text-muted:#525e6c;--color-text-dim:#68737e;
+ --color-accent:#38658f;--color-accent-hover:#2f5578;--color-accent-text:#284d70;
+ --color-accent-subtle:#38658f1c;--color-accent-subtle-border:#38658f55;--color-toggle-off:#a5abb3;
+ color-scheme:light;
+}
+html,body,#root{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;font-size:12px}
+button,select,input,textarea{font-family:inherit}
+button{border-radius:3px!important;box-shadow:none!important;transition:background-color .1s,border-color .1s!important}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--color-accent-text)!important;outline-offset:2px}
+button:disabled{cursor:default;opacity:.45}
+button:not(:disabled):hover{filter:brightness(1.13)}
+#root>div>header{height:42px!important;border-bottom-color:var(--color-border)!important;padding:0 12px!important}
+#root>div>header [role="img"]{width:25px!important;height:25px!important;border-radius:3px!important;background:#426e9e!important;box-shadow:none!important}
+#root>div>header>div:first-child>span{font-size:13px!important;letter-spacing:.1px!important;font-weight:600!important}
+#root>div>header>div:nth-child(2)>div{border-radius:3px!important;padding:2px!important;background:var(--color-bg)!important}
+#root>div>header>div:nth-child(2) button{padding:5px 13px!important;font-size:11px!important;font-weight:500!important;min-width:54px}
+#root>div>header button{height:28px!important}
+#root>div>header+div{min-height:36px;align-items:center;border-bottom:1px solid var(--color-border);gap:18px!important;padding:4px 12px!important}
+#root>div>header+div>label{display:flex;align-items:center;gap:7px;color:var(--color-text-muted);font-size:11px}
+#root>div>header+div select{background-color:var(--color-surface-2);border:1px solid var(--color-border);border-radius:3px;min-height:25px;padding-left:8px;min-width:112px;color:var(--color-text)}
+#root>div>header+div button{border:1px solid var(--color-border);background:var(--color-surface-2);padding:4px 10px;font-size:11px}
+#root>div>main{background:var(--color-bg)!important}
+section[data-piano-number]{background:var(--color-notes-bg)!important;border:1px solid var(--color-notes-border);margin:10px 10px 8px;padding:0 14px 14px!important;border-radius:2px}
+section[data-piano-number]>div:first-child{height:30px;display:flex;align-items:center;margin:0 -14px;padding:0 12px;background:var(--color-surface);opacity:1!important;color:var(--color-text-muted);border-bottom:1px solid var(--color-border-subtle);font-size:10px!important;letter-spacing:.15px}
+[data-numbered-cue]{border-bottom:1px solid var(--color-border-subtle);margin-bottom:8px;background:var(--color-surface);padding:0 12px;border-radius:0 0 3px 3px}
+[data-piano-hand-lane="right"],[data-piano-hand-lane="left"]{background:color-mix(in srgb,var(--color-surface) 40%,transparent)}
+[data-piano-hand-lane="right"]{border-top:1px solid var(--color-border-subtle)}
+.t-btn{border-radius:3px!important;min-height:29px;height:29px!important;font-size:11px!important;padding:0 9px!important}
+.t-btn.primary{border-radius:3px!important;min-width:38px!important;width:38px!important;height:32px!important;background:var(--color-accent)!important}
+[data-piano-practice-hands]{background:var(--color-surface);color:var(--color-text);font-size:12px!important;gap:8px!important}
+[data-piano-practice-hands] button{padding:5px 8px;border:1px solid var(--color-border);background:var(--color-surface-2);min-height:28px;font-size:11px}
+[data-piano-practice-hands] button[aria-pressed="true"]{background:var(--color-accent-subtle);border-color:var(--color-accent);color:var(--color-accent-text)}
+[data-piano-practice-hands]>span{font-size:11px;color:var(--color-text-muted)}
+/* Dock the existing learning tools; React remains the owner of every control. */
+@media(min-width:1150px){
+ #root>div>main:has([data-piano-practice-hands]){padding-right:224px}
+ [data-piano-practice-hands]{position:absolute;right:0;top:0;bottom:0;width:224px;border-left:1px solid var(--color-border);border-bottom:0!important;padding:0 12px 16px!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));align-content:start;align-items:start!important;gap:8px!important;overflow:auto}
+ [data-piano-practice-hands]>strong{grid-column:1/-1;font-size:0;margin:0 -12px 9px;padding:8px 12px;background:var(--color-surface-2);border-bottom:1px solid var(--color-border)}
+ [data-piano-practice-hands]>strong:after{content:none;font-size:11px;letter-spacing:.5px;font-weight:600}
+ [data-piano-practice-hands]>span{grid-column:1/-1;line-height:1.7;padding:12px 8px;margin:7px 0;background:var(--color-bg);border:1px solid var(--color-border-subtle);font-variant-numeric:tabular-nums}
+ [data-piano-practice-hands]>button:nth-of-type(n+4){grid-column:1/-1;min-height:30px;text-align:left;padding:5px 10px}
+ [data-piano-practice-hands]>button:nth-of-type(5){border-color:var(--color-accent);background:var(--color-accent-subtle);color:var(--color-accent-text)}
+ [data-piano-practice-hands]>label{grid-column:1/-1;font-size:11px;display:flex;gap:7px;align-items:center;margin-top:9px}
+}
+/* Existing drawers and lesson library receive the same compact panel chrome. */
+#root [style*="translateX"]:has(>.border-b){box-shadow:-2px 0 10px #0003!important}
+.settings-row{border-radius:0!important;border-bottom:1px solid var(--color-border-subtle);padding:8px 0!important}
+[role="radiogroup"]{border-radius:3px!important;padding:2px!important;gap:1px!important}
+.settings-row [role="radio"]{min-height:26px}
+.beginner-card{border-radius:4px;box-shadow:0 18px 60px #0006}
+.beginner-head{padding:14px;background:var(--color-surface-2)}
+.beginner-card h2{font-size:15px;letter-spacing:.2px}
+.beginner-row{padding:10px 12px;font-size:12px}
+.beginner-row[aria-current="true"]{box-shadow:inset 3px 0 var(--color-accent)}
+.beginner-box{border-radius:3px;background:var(--color-bg)}
+.beginner-actions button{min-height:32px;font-size:12px}
+input[type="range"]::-webkit-slider-thumb{width:10px;height:16px;border-radius:2px;box-shadow:none;margin-top:-6px}
+input[type="range"]::-webkit-slider-runnable-track{height:4px;border-radius:1px}
+::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{border:2px solid var(--color-surface);border-radius:2px;background:var(--color-border)}
+.at-cursor-beat{background:#72acddb3}.at-cursor-bar{background:#72acdd22}.at-selection div{background:#72acdd33}
+@media(max-width:1149px){[data-piano-practice-hands]{padding:7px 12px!important}section[data-piano-number]{margin:7px}}
+
+/* One baseline and control height for the playback toolbar, including native
+   selects. Keep menus and dialogs outside this scoped presentation rule. */
+[data-piano-transport] { align-items:center; }
+[data-piano-transport] button:not([role="menuitem"]),
+[data-piano-transport] select,
+[data-piano-transport] > label {
+  box-sizing:border-box;
+  height:32px!important;
+  min-height:32px!important;
+  font-family:inherit;
+  font-size:12px!important;
+  line-height:1.25!important;
+  vertical-align:middle;
+}
+[data-piano-transport] button:not([role="menuitem"]),
+[data-piano-transport] > label { display:inline-flex; align-items:center; justify-content:center; }
+[data-piano-transport] select {
+  padding:0 24px 0 9px;
+  border:1px solid var(--color-border);
+  border-radius:3px!important;
+}
+[data-piano-transport] svg { flex-shrink:0; vertical-align:middle; }
+
+/* Keep the real group label visible rather than replacing it with CSS text. */
+@media(min-width:1150px) {
+  [data-piano-practice-hands]>strong { font-size:11px; font-weight:600; }
+  [data-piano-practice-hands]>strong:after { content:none; }
+}

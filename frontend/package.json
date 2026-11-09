@@ -1,0 +1,47 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.7.0-preview.1",
+  "description": "Piano Practice frontend",
+  "author": "gigliof",
+  "license": "MIT",
+  "homepage": "https://github.com/clementine477/piano-practice",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clementine477/piano-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clementine477/piano-practice/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bach-to-basics/shared": "workspace:*",
+    "@coderline/alphatab": "1.8.3",
+    "@tonejs/midi": "^2.0.6",
+    "mitt": "^3.0.1",
+    "pixi.js": "^8.18.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "smplr": "^0.26.0",
+    "tone": "^15.0.4",
+    "webmidi": "^3.1.11",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "@vitest/ui": "^4.1.9",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.1.0",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.9"
+  }
+}
